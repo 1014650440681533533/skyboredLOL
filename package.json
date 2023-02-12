@@ -1,0 +1,38 @@
+{
+    "name": "skybored",
+    "preductname": "SkyBored",
+    "version": "1.1.1",
+    "description": "Launcher Mincraft custom (crack, premium)",
+    "main": "src/app.js",
+    "author": "Tifiouse",
+    "url": "https://skycraftmanager2522552.000webhostapp.com",
+    "engines": {
+        "node": "^18.x.x"
+    },
+    "scripts": {
+        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "build": "node build.js",
+        "dev": "nodemon --exec npm start"
+    },
+    "license": "CC0",
+    "nodemonConfig": {
+        "ext": "js,html,css"
+    },
+    "dependencies": {
+        "build": "^0.1.4",
+        "build.js": "^0.3.0",
+        "electron-updater": "^5.0.1",
+        "minecraft-java-core": "^3.1.1",
+        "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "electron": "^20.0.0",
+        "electron-builder": "^23.0.3",
+        "nodemon": "^2.0.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TfsCloud/SkyCraftLauncher.git"
+    }
+}
