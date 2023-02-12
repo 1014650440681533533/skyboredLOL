@@ -22,9 +22,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Bienvenue sur Skycraft", "author": "Tifiouse" },
-            { "message": "Passé un bon moment", "author": "Tifiouse" },
-            { "message": "Bon jeux !", "author": "Tifiouse" }
+            { "message": "Bienvenue sur Skycraft", "Tifiouse": "Tifiouse" },
+            { "message": "Passé un bon moment", "Tifiouse": "Tifiouse" },
+            { "message": "Bon jeux !", "Tifiouse": "Tifiouse" }
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
